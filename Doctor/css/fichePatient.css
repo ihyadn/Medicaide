@@ -1,0 +1,126 @@
+.patient_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.barre_patient {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+  height: 25%;
+  border-radius: 40px;
+  width: 90%;
+  padding: 30px;
+  background-color: #0f00ff;
+  margin: auto;
+}
+.info_patient {
+  display: flex;
+  /* padding: 10px; */
+  height: 60%;
+  border-radius: 40px;
+  width: 100%;
+  margin: 10px;
+  color: white;
+}
+.patient_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-bottom: 15%;
+}
+.container_sidebar {
+  width: 30%;
+  background-image: linear-gradient(to right, #0f00ff 0%, #00f2fe 100%);
+  border-radius: 40px;
+  padding: 10px;
+  margin-right: 5px;
+  height: 100%;
+}
+
+.container_main {
+  display: flex;
+  flex: 10;
+  flex-wrap: wrap;
+  overflow: auto;
+  /* background-color: #0f00ff; */
+  background-image: linear-gradient(to right, #0f00ff 0%, #00f2fe 100%);
+  border-radius: 40px;
+  justify-content: space-between;
+  padding: 10px;
+  height: 100%;
+  overflow-y: hidden;
+}
+.dashboard {
+  flex-direction: column !important;
+}
+.info_container {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  flex: 1;
+  height: fit-content;
+  text-align: center;
+  background-color: #0f00ff;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.info1_patient,
+.info2_patient,
+.info3_patient,
+.info4_patient,
+.info5_patient,
+.info6_patient,
+.info7_patient {
+  border-radius: 10px;
+  width: 30%;
+  height: 25%;
+  font-size: 90%;
+  padding: 3px;
+  border-bottom: 1px solid #fff;
+}
+.info_RDVs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  text-align: center;
+}
+.rdv {
+  flex: 1;
+  font-size: 100%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.rdv h5 {
+  font-size: 1em;
+}
+.info_title {
+  font-weight: 600;
+  font-size: 1em;
+  font-family: "PT Sans", sans-serif;
+}
+.info_text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.1em;
+}
+.info_num {
+  font-family: "PT Sans", sans-serif;
+  font-size: 2em;
+  margin: 0;
+}
+.nom_patient h3 {
+  font-size: 1.5em;
+}
+button {
+  background: transparent;
+}
+a {
+  cursor: pointer !important;
+}

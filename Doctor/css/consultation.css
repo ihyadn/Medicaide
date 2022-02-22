@@ -1,0 +1,173 @@
+.info_consultation {
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: space-around;
+}
+.dashboard {
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+.documents {
+  width: 100%;
+  height: 48%;
+  /* border: 1px solid #000; */
+}
+.patient {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 48%;
+  height: 100%;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, #0f00ff 0%, #00f2fe 100%);
+  border-radius: 40px;
+  position: relative;
+  /* margin: 5px; */
+}
+
+.docassoc_wrapper {
+  width: 48%;
+  height: 100%;
+  background-image: linear-gradient(to right, #0f00ff 0%, #00f2fe 100%);
+  border-radius: 40px;
+  overflow: hidden;
+}
+.docassoc {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  overflow-y: scroll;
+  padding: 0px 10px;
+}
+.docassoc::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: transparent;
+}
+
+.docassoc::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.docassoc::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+.patient h3 {
+  position: absolute;
+  top: -15px;
+  color: white;
+}
+.info_patient {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.pat_log {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.pat_log h2 {
+  color: white;
+}
+.patient_img {
+  width: 70%;
+  height: 50%;
+}
+.info_specifique {
+  /* border: 1px solid #000; */
+  /* border-radius: 10px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 48%;
+  height: 100%;
+  background-image: linear-gradient(to right, #0f00ff 0%, #00f2fe 100%);
+  border-radius: 40px;
+}
+
+.input {
+  height: 30%;
+  width: 90%;
+  border: 1px solid rgb(114, 107, 107);
+  border-radius: 10px;
+  margin-bottom: 10%;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  color: white;
+}
+.compterendu {
+  background: #fff !important;
+  border: none;
+  border-radius: 10px;
+}
+.input:focus {
+  outline: none;
+}
+::placeholder {
+  color: #000;
+  font-size: 1.1em;
+}
+.add_file {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.link_add {
+  width: 40%;
+  height: 50%;
+  text-decoration: none;
+  cursor: pointer;
+}
+.img_add {
+  height: 100%;
+  width: 100%;
+}
+.file {
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.file_img {
+  height: 100%;
+  width: 100%;
+}
+.table > thead > tr > th {
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 3px;
+  margin: 5px 5px;
+}
+.table > tbody > tr > td {
+  padding: 4px;
+
+  border: 1px solid #fff;
+}
+.dnone {
+  display: none;
+}
+.modalbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.modal_input {
+  margin: 5px;
+  display: block;
+  width: 60%;
+}

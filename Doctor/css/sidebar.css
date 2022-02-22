@@ -1,0 +1,224 @@
+body {
+  background-image: linear-gradient(to right, #c1ffff 0%, #00f2fe 40%);
+  background: linear-gradient(to right, #36eded 0%, #17dde5 40%);
+  overflow: hidden;
+}
+.main {
+  display: flex;
+  margin: 20px;
+  overflow-y: hidden;
+  height: 95vh;
+}
+.sidebar {
+  flex: 2;
+  background-color: #0f00ff;
+  height: 95vh;
+  border-radius: 40px;
+  margin-right: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.doc_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-bottom: 5%;
+}
+.doctor_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+.nom_docteur h4 {
+  color: white;
+}
+.sidebar_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 300px;
+  width: 90%;
+}
+.icon {
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin-right: 10%;
+}
+.list_item {
+  color: white !important;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none !important;
+}
+.list_item:hover {
+  background: rgb(253, 252, 177);
+  color: black !important;
+}
+.active {
+  background: rgb(253, 252, 177);
+  color: black !important;
+}
+.dashboard {
+  flex: 10;
+  height: 100%;
+  border-radius: 40px;
+  /* border: 1px solid #eee; */
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  padding: 5px;
+}
+.calendar {
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  height: 100%;
+  border: none;
+  /* padding: 5px; */
+  /* background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%); */
+  /* background-image: linear-gradient(to top, #b3ffab 0%, #00f2fe 100%); */
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
+}
+.main_cal {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#calendar {
+  flex: 7;
+  border-radius: 40px;
+  height: 100%;
+  margin-right: 5px;
+  background-image: linear-gradient(to top, #b3ffab 0%, #00f2fe 100%);
+  overflow: hidden;
+}
+.calendar-nav {
+  display: flex;
+  width: 90%;
+  align-items: center;
+}
+.add-button {
+  width: 20%;
+}
+.date_picker {
+  border: none;
+  text-align: center;
+  width: 80px;
+  font-size: 10px;
+}
+#search {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin-left: 2px;
+}
+.form_wrapper {
+  flex: 3;
+  /* margin: 5px; */
+  box-sizing: border-box;
+  border-radius: 40px;
+  height: 100%;
+  border: none;
+  /* padding: 5px; */
+  /* background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%); */
+  background-image: linear-gradient(to top, #b3ffab 0%, #00f2fe 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form_wrapper h5 {
+  font-size: 1.5vw;
+}
+.insert_form {
+  position: relative;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.choose_date {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+}
+.date_pick {
+  height: 100% !important;
+  width: 80%;
+  border-bottom: 1px solid #fff !important;
+}
+.inser_input {
+  width: 80%;
+  height: 8%;
+  border: none;
+  border-bottom: 1px solid #0f00ff;
+  font-family: sans-serif;
+  font-size: 10px;
+  background: transparent;
+  margin-bottom: 1%;
+  text-align: center;
+  color: black;
+}
+.inser_input:-internal-autofill-selected {
+  background-color: rgb(255, 255, 255) !important;
+  background-image: none !important;
+  color: rgb(0, 0, 0) !important;
+}
+.inser_input:focus {
+  outline: none;
+}
+label {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.confirmer {
+  border-radius: 5px !important;
+  font-weight: 600 !important;
+  width: 60%;
+}
+.check_user {
+  position: absolute;
+  top: 6%;
+  right: 3%;
+}
+#date_picker {
+  border-bottom: 1px solid #fff;
+}
+button {
+  transform: scale(1);
+  transition: 0.2s;
+}
+button:hover {
+  transform: scale(1.05);
+}
+.piece {
+  display: none;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
